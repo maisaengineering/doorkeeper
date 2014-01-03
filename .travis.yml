@@ -18,4 +18,3 @@ services:
 matrix:
   allow_failures:
     - env: orm=mongoid2
- 
