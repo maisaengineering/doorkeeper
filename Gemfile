@@ -19,6 +19,10 @@ when 'mongoid2'
 
 when 'mongoid3'
   gem 'mongoid', '3.0.10'
+  
+when 'monogid4'
+  gem "mongoid", '~> 4', github: 'mongoid/mongoid', ref: '9b3bc1264032209b7a6c0e82d0ca656f401e476b'
+  gem "bson_ext"
 
 when 'mongo_mapper'
   gem 'mongo_mapper', '0.12.0'
